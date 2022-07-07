@@ -1,0 +1,168 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.big-word {
+    font-size: 65px;
+    font-weight: 700px;
+}
+
+.donate-today {
+    font-size: ;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.874), tomato);
+    padding: 10px 12px;
+    gap: 16px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.background-image {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 669px;
+}
+
+.white-color {
+    color: white;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.content-paragraph {
+    text-align: center;
+}
+
+.background-set {
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.fexible-content {
+    display: flex;
+}
+
+.half-width {
+    width: 135px;
+    height: 123px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 40px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px gray;
+    text-align: center;
+}
+
+#tk-color {
+    border: 5px solid tomato;
+    background-color: rgba(245, 142, 124, 0.397);
+    color: tomato;
+}
+
+h6 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5px;
+    border-bottom: 2px solid grey;
+}
+
+.width-set {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+#food-color {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+
+#shrlter-color {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+#education-color {
+    background: #FFF4D6;
+    border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.flexible-container {
+    display: flex;
+    margin: 50px;
+}
+
+.single-width img {
+    width: 80%;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.874), tomato);
+    padding: 10px 12px;
+    gap: 16px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.get {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: #FFF4D6;
+    border-radius: 5px;
+    margin: 80px 50px 80px 50px;
+    height: 100px;
+    padding: 80px 50px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+}
+
+#get-color {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+footer {
+    padding: 30px 30px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+#footer-heading {
+    font-family: 'Lobster', cursive;
+    color: tomato;
+}
+
+#footer-paragraph {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+}
