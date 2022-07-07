@@ -3,12 +3,12 @@ body {
     margin: 0;
 }
 
-.big-word {
+.word-bold{
     font-size: 65px;
     font-weight: 700px;
 }
 
-.donate-today {
+.donate-daily {
     font-size: ;
 }
 
@@ -22,7 +22,7 @@ body {
     border-radius: 5px;
 }
 
-.background-image {
+.top-banner {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,22 +30,22 @@ body {
     height: 669px;
 }
 
-.white-color {
+.text-color{
     color: white;
     text-align: center;
     padding: 40px 10px;
 }
 
-.content-paragraph {
+.pragraph-resize{
     text-align: center;
 }
 
-.background-set {
+.backgroud-word{
     text-align: center;
     padding: 40px 10px;
 }
 
-.fexible-content {
+.donate-ammount-flexible {
     display: flex;
 }
 
@@ -60,7 +60,7 @@ body {
     text-align: center;
 }
 
-#tk-color {
+#taka-color {
     border: 5px solid tomato;
     background-color: rgba(245, 142, 124, 0.397);
     color: tomato;
@@ -74,7 +74,7 @@ h6 {
     border-bottom: 2px solid grey;
 }
 
-.width-set {
+.width-resize {
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
     width: 30%;
@@ -85,21 +85,21 @@ h6 {
     border-radius: 10px;
 }
 
-#food-color {
+#food-icon-color {
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
 }
 
-#shrlter-color {
+#shelter-icon-color {
     background: rgba(255, 89, 89, 0.1);
 }
 
-#education-color {
+#education-icon-color {
     background: #FFF4D6;
     border-radius: 5px;
 }
 
-.top-banner {
+.top-banner-image {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
@@ -128,7 +128,7 @@ h6 {
     border-radius: 5px;
 }
 
-.get {
+.get-info {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -145,7 +145,7 @@ h6 {
 
 }
 
-#get-color {
+#get-info-color{
     background: rgba(255, 89, 89, 0.1);
 }
 
@@ -157,12 +157,35 @@ footer {
     background-color: black;
 }
 
-#footer-heading {
+#footer-Text {
     font-family: 'Lobster', cursive;
     color: tomato;
 }
 
-#footer-paragraph {
+#footer-bottom-text {
     font-family: 'Manrope', sans-serif;
     color: white;
+}
+
+.donate-ammount-fexible{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#get-info-color input{
+    width: 215px;
+    height: 40px;
+    background: #ddd;
+    border: solid 1px #ddd;
+    text-align: left;
+}
+
+#get-info-color button{
+    width: 115px;
+    height: 44px;
+    background: rgb(255 0 0 / 87%);
+    border: solid 1px rgb(255 0 0 / 87%);
+    color: #fff;
 }
